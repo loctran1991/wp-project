@@ -1,7 +1,9 @@
 # wp-project
 Deploy Wordpress in K8s
 I deploy small lab in Minikube
-2 things are important: Local Volume and  Name of NODE
+2 things are important: 
+-- Local Volume and  Name of NODE
+-- Create Database name: Wordpress in your POD
 
 When you deploy PV and PVC -> Focus on local storage
 local:
