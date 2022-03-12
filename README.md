@@ -14,8 +14,7 @@ local:
           operator: In
           values:
           - centos8 #name of the Node
-          
-          
+                    
           
  local:
     path: "/mnt/mysqldata" --> YOu should create it before deploy PV
