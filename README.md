@@ -5,6 +5,11 @@ I deploy small lab in Minikube
 -- Local Volume and  Name of NODE
 -- Create Database name: Wordpress in your POD
 
+kubectl appy -f mysql-secret.yaml
+kubectl appy -f mysql-volume.yaml
+kubectl appy -f mysql-deployment.yaml
+kubectl appy -f mysql-service.yaml
+
 When you deploy PV and PVC -> Focus on local storage
 local:
     path: "/mnt/wpdata" --> YOu should create it before deploy PV
