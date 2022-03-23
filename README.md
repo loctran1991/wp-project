@@ -10,6 +10,10 @@ kubectl appy -f mysql-volume.yaml
 kubectl appy -f mysql-deployment.yaml
 kubectl appy -f mysql-service.yaml
 
+kubectl appy -f wordpress-volume.yaml
+kubectl appy -f wordpress-deployment.yaml
+kubectl appy -f wordpress-service.yaml
+
 When you deploy PV and PVC -> Focus on local storage
 local:
     path: "/mnt/wpdata" --> YOu should create it before deploy PV
